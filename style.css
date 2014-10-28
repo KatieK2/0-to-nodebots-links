@@ -1,0 +1,37 @@
+/* html5doctor.com Reset Stylesheet */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, code, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; } html { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+body { line-height: 1.5; padding: 1rem; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+nav ul { list-style: none; }
+a { margin: 0; padding: 0; font-size: 100%; vertical-align: baseline; background: transparent; }
+ins { background-color: rgba(255, 255, 255, 0.4); text-decoration: none; }
+mark { background-color: rgba(255, 255, 255, 0.4); font-style: inherit; font-weight: bold; }
+del { text-decoration: line-through; }
+em { font-style: italic; }
+strong { font-weight: bold; }
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+table { border-collapse: collapse; border-spacing: 0; }
+hr { display: block; height: 1px; border: 0; border-top: 1px dashed white; width: 80%; margin: 1em auto; padding: 0; }
+input, select { vertical-align: middle; }
+h1 { font-size: 2em; line-height: 100%; margin-top: .5em; margin-bottom: .5em; }
+h2 { font-size: 1.1667em; line-height: 128.6%; margin-top: 1.143em; }
+p, ul, ol, dl, pre, code, blockquote { font-size: 1em; margin-bottom: 1.5em; }
+li { margin-bottom: .75%; }
+small, aside { font-size: 0.75em; }
+
+/* #A7A37E */
+
+/*  Actually I don't like the left padding zeroed on some lists */
+ul { padding-left: 1rem; }
+ol { padding-left: 1.7rem; }
+
+body { color: #046380; background-color: #E6E2AF; margin: 0 2rem; font-family: sans-serif; }
+h1, h2, h3, h4, h5, h6 { font-weight: bold; color: #002F2F; }
+h3, h4 { margin-top: 1rem; }
+header, footer { text-align: center; margin: 2rem auto; padding: 1rem;
+  border-top: solid white thin; border-bottom: solid white thin;
+   }
+a { color: inherit; }
+dt { border-top: dashed white thin; padding-top: .35em; margin-top: .25em; }
+dt:first-child { border-top: none; }
+dd { margin-bottom: 0.25em; }
