@@ -16,7 +16,7 @@ hr { display: block; height: 1px; border: 0; border-top: 1px dashed white; width
 input, select { vertical-align: middle; }
 h1 { font-size: 2em; line-height: 100%; margin-top: .5em; margin-bottom: .5em; }
 h2 { font-size: 1.1667em; line-height: 128.6%; margin-top: 1.143em; }
-p, ul, ol, dl, pre, code, blockquote { font-size: 1em; margin-bottom: 1.5em; }
+p, ul, ol, dl, pre, code, blockquote { font-size: 1em; }
 li { margin-bottom: .75%; }
 small, aside { font-size: 0.75em; }
 
@@ -27,7 +27,6 @@ small, aside { font-size: 0.75em; }
 #4D5BC8: Blue        $color-4: desaturate(complement($color-1), 40%);
 #B9A616: Dk Yellow   $color-5: mix($color-1, black, 75%);
 */
-
 
 body {
   color: #2C2E2B;
@@ -40,9 +39,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Monda", sans-serif;
   margin-left: 1rem;
   margin-right: 1rem;
-}
-h3, h4 {
-  /*margin-top: 1rem;*/
 }
 header, footer {
   background-color: #F7DE1E;
