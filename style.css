@@ -49,17 +49,22 @@ header, footer {
   border-bottom: solid black thick;
 }
 
-/*main {
+main {
   display: flex;
-}*/
+}
+
+div.flex-wrapper {
+  flex: 4;
+}
 
 nav {
   font-size: 85%;
   padding: .5rem;
   background-color: #4D5BC8;
   overflow: auto;
-  border-bottom: thick solid #000;
-  /*align-items: stretch;*/
+  border-right: thick solid #000;
+  flex: 1 1 10rem;
+  align-items: stretch;
 }
 
 ul {
