@@ -48,6 +48,20 @@ header, footer {
   border-top: solid black thick;
   border-bottom: solid black thick;
 }
+
+/*main {
+  display: flex;
+}*/
+
+nav {
+  font-size: 85%;
+  padding: .5rem;
+  background-color: #4D5BC8;
+  overflow: auto;
+  border-bottom: thick solid #000;
+  /*align-items: stretch;*/
+}
+
 ul {
   margin-left: 1rem;
   margin-right: 1rem;
@@ -77,4 +91,17 @@ dt:first-child {
 }
 dd {
   margin-bottom: 0.25em;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  float: left;
+  border: 1px solid #000;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+nav a {
+  color: white;
 }
