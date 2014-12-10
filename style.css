@@ -49,6 +49,14 @@ header, footer {
   border-bottom: solid black thick;
 }
 
+header {
+  margin-bottom: 1rem;
+}
+
+footer {
+  margin-top: 1rem;
+}
+
 main {
   display: flex;
 }
