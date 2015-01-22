@@ -33,6 +33,7 @@ body {
   background-color: #FCF4B2;
   font: 16px/1.6em "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
 h1, h2, h3, h4, h5, h6 {
   color: #002F2F;
   font-weight: bold;
@@ -40,6 +41,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 1rem;
   margin-right: 1rem;
 }
+
 header, footer {
   background-color: #F7DE1E;
   font-family: "Monda", sans-serif;
@@ -49,20 +51,13 @@ header, footer {
   border-bottom: solid black thick;
 }
 
-header {
-  margin-bottom: 1rem;
-}
-
-footer {
-  margin-top: 1rem;
-}
-
 main {
   display: flex;
 }
 
 div.flex-wrapper {
   flex: 4;
+  padding-bottom: 1rem;
 }
 
 nav {
