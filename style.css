@@ -31,6 +31,7 @@ small, aside { font-size: 0.75em; }
 body {
   color: #2C2E2B;
   background-color: #FCF4B2;
+  background-image: url("gplay.png");
   font: 16px/1.6em "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -64,6 +65,7 @@ nav {
   font-size: 85%;
   padding: .5rem;
   background-color: #4D5BC8;
+  background-image: url("gplay.png");
   overflow: auto;
   border-right: thick solid #000;
   flex: 1 1 10rem;
@@ -106,6 +108,7 @@ nav ul {
 }
 nav li {
   float: left;
+  background-color: #4D5BC8;
   border: 1px solid #000;
   margin: 0.5rem;
   padding: 0.5rem;
@@ -117,6 +120,7 @@ nav a {
   float: right;
   width: 45%;
   border: thin solid #000;
+  background-color: #FCF4B2;
   padding: .5rem;
   font-size: small;
 }
