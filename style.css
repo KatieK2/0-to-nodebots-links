@@ -45,6 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 
 header, footer {
   background-color: #F7DE1E;
+  background-image: url("hexellence.png");
   font-family: "Monda", sans-serif;
   text-align: center;
   padding: 1rem;
